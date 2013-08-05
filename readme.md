@@ -1,4 +1,4 @@
-Cocoa port of [VerbalExpressions](). Still very much in development, contributions welcome!
+Cocoa port of [VerbalExpressions](https://github.com/jehna/VerbalExpressions). Still very much in development, contributions welcome!
 
 ``` obj-c
 VerbalExpression *verbalExpression = [VerbalExpression expression];
