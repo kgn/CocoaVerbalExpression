@@ -3,7 +3,7 @@ Cocoa port of [VerbalExpressions](). Still very much in development, contributio
 ``` obj-c
 VerbalExpression *verbalExpression = [VerbalExpression expression];
 [verbalExpression whiteSpace];
-[verbalExpression then:CNPreferencesNoteTagCharacter];
+[verbalExpression then:@"#"];
 [verbalExpression somethingBut:[VerbalExpression number]];
 [verbalExpression anyOf:[VerbalExpression word], [VerbalExpression number], @"-", @"_", nil];
 
