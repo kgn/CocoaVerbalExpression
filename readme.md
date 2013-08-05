@@ -1,6 +1,6 @@
 Cocoa port of [VerbalExpressions](). Still very much in development, contributions welcome!
 
-```
+``` obj-c
 VerbalExpression *verbalExpression = [VerbalExpression expression];
 [verbalExpression whiteSpace];
 [verbalExpression then:CNPreferencesNoteTagCharacter];
